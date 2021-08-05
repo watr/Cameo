@@ -9,7 +9,7 @@
 import Cocoa
 import CMIOKit
 
-protocol TranslationPanelControllerDelegate: class {
+protocol TranslationPanelControllerDelegate: AnyObject {
     func translationPanelDidDismiss()
 }
 

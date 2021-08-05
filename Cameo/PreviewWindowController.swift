@@ -9,7 +9,7 @@
 import Cocoa
 import AVFoundation
 
-protocol PreviewWindowControllerDelegate: class {
+protocol PreviewWindowControllerDelegate: AnyObject {
     func previewWindowWillClose()
 }
 

@@ -8,7 +8,7 @@
 
 import Cocoa
 
-protocol ValueCellDelegate: class {
+protocol ValueCellDelegate: AnyObject {
     func valueCellDidClickLinkButton(_ sender: ValueCellView)
 }
 

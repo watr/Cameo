@@ -9,7 +9,7 @@
 import Cocoa
 import CMIOKit
 
-protocol AdjustControlPanelControllerDelegate: class {
+protocol AdjustControlPanelControllerDelegate: AnyObject {
     func adjustControlPanelDidDismiss()
 }
 
